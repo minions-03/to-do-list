@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add styles for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
